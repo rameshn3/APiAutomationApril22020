@@ -1,0 +1,38 @@
+{
+	"about": {
+		"project": "Veta Health",
+		"team": "QE",
+		"environment": "QA",
+		"releaseVersion": "1.0"
+	},
+	"gui": {
+		"remoteExecutor": {
+			"saucelabs": {
+				"remoteAddress": "http://sauce:4444/wd/hub",
+				"userName": "user",
+				"token": "key"
+			}
+		},
+		"defaultProfile": "local-chrome",
+		"multiProfile": [
+			"local-chrome",
+			"local-firefox"
+		],
+		"randomProfile": [
+			"local-chrome",
+			"local-firefox"
+		],
+		"profile": {
+			"local-firefox": {
+				"browserName": "firefox"
+			},
+			"local-chrome": {
+				"browserName": "chrome"
+			}
+		}
+	},
+	"dashboard": {
+		"url": "http://localhost:4000",
+		"disabled": true
+	}
+}

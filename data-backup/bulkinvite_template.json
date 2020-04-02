@@ -1,0 +1,146 @@
+{
+	"resourceType": "Patient",
+	"id": "smart-1032703",
+	"meta": {
+		"versionId": "1",
+		"lastUpdated": "2019-06-10T14:47:20.685+00:00",
+		"tag": [
+			{
+				"system": "https://smarthealthit.org/tags",
+				"code": "smart-1-2019"
+			}
+		]
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">abc def</div>"
+	},
+	"identifier": [
+		{
+			"use": "official",
+			"type": {
+				"coding": [
+					{
+						"system": "http://hl7.org/fhir/v2/0203",
+						"code": "MR",
+						"display": "Medical Record Number"
+					}
+				],
+				"text": "Medical Record Number"
+			},
+			"system": "http://hospital.smarthealthit.org",
+			"value": "MRN VALUE"
+		}
+	],
+	"active": true,
+	"name": [
+		{
+			"use": "official",
+			"family": "Patil",
+			"given": [
+				"Swapnil",
+				"Kumar"
+			]
+		}
+	],
+	"telecom": [
+		{
+			"system": "phone",
+			"value": "919535109433",
+			"use": "mobile"
+		},
+		{
+			"system": "email",
+			"value": ""
+		}
+	],
+	"gender": "male",
+	"birthDate": "2019-06-25",
+	"address": [
+		{
+			"use": "home",
+			"line": [
+				"49 Meadow St"
+			],
+			"city": "Mounds",
+			"state": "OK",
+			"postalCode": "74047",
+			"country": "USA"
+		}
+	],
+	"maritalStatus": {
+		"coding": [
+			{
+				"system": "http://hl7.org/fhir/ValueSet/marital-status",
+				"code": "UNK",
+				"display": "Unknown"
+			}
+		],
+		"text": "S"
+	},
+	"contact": [
+		{
+			"relationship": [
+				{
+					"coding": [
+						{
+							"system": "http://hl7.org/fhir/v2/0131",
+							"code": "O"
+						}
+					],
+					"text": "N"
+				},
+				{
+					"text": "LG"
+				}
+			],
+			"name": {
+				"family": "Patil",
+				"given": [
+					"Arun"
+				]
+			},
+			"telecom": [
+				{
+					"system": "phone",
+					"value": "919035773707",
+					"use": "home"
+				},
+				{
+					"system": "email",
+					"value": "srpatil1@mailinator.com",
+					"use": "home"
+				}
+			],
+			"address": {
+				"use": "home",
+				"line": [
+					"7 EAST SIDE WAY"
+				],
+				"city": "BOSTON",
+				"state": "MA",
+				"postalCode": "02114",
+				"country": "USA"
+			}
+		}
+	],
+	"communication": [
+		{
+			"language": {
+				"coding": [
+					{
+						"system": "http://hl7.org/fhir/ValueSet/all-languages",
+						"code": "zxx",
+						"display": "No linguistic content; Not applicable"
+					}
+				],
+				"text": "EN"
+			}
+		}
+	],
+	"generalPractitioner": [
+		{
+			"reference": "Practitioner/smart-Practitioner-72004454"
+		}
+	]
+}

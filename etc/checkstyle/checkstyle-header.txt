@@ -1,0 +1,10 @@
+^\Q/**\E$
+^\Q * Copyright (C) Altimetrik 2018. All rights reserved.\E$
+^\Q *\E$
+^\Q * This software is the confidential and proprietary information\E$
+^\Q * of Altimetrik. You shall not disclose such Confidential Information\E$
+^\Q * and shall use it only in accordance with the terms and conditions\E$
+^\Q * entered into with Altimetrik.\E$
+^\Q */\E$
+^$
+^.*$
